@@ -1,0 +1,233 @@
+    1  pwd
+    2  ls
+    3  date
+    4  date -u
+    5  cal
+    6  date +%a
+    7  date +%A
+    8  cd home
+    9  cd ..
+   10  pwd
+   11  cd ARPITA
+   12  cd home
+   13  cd ARPITA
+   14  ls
+   15  cd March24
+   16  cd March 24
+   17  cd Mar 24
+   18  pwd
+   19  cd /tmp
+   20  ls
+   21  /tmp touch ashok.txt
+   22  /tmp# touvh ashok.txt
+   23  /tmp# touch Ashok.txt
+   24  Ashok.txt
+   25  Tukaram.txt
+   26  pwd
+   27  ls
+   28  cd Tukaram/
+   29  pwd
+   30  mkdir dir1
+   31  ls
+   32  pwd
+   33  mkdir Tukaram Gavanang
+   34  ls
+   35  mkdir Gavanang Tukaram/Ashok Gavanang
+   36  mkdir Tukaram Gavanang/Ashok Gavanang
+   37  Tukaram Gavanang/Ashok
+   38  clear
+   39  pwd
+   40  mkdir Tukaram
+   41  pwd
+   42  home
+   43  clear
+   44  cd /Tukaram Gavanang
+   45  ls
+   46  mkdir Tukaram Gavanang/Ashok
+   47  rm -r dir1
+   48  rm -r Tukaram
+   49  rm -r Gavanang
+   50  pwd
+   51  cd /home
+   52  mkdir Tukaram
+   53  ls
+   54  mkdir Tukaram/Ashok Tukaram/Ajit
+   55  ls Tukaram
+   56  mkdir Tukaram/Ashok/Kashmira 
+   57  ls Ashok
+   58  ls Tukaram
+   59  Tukaram/Ashok/Simaran Tukaram/Ashok/Arpita
+   60  mkdir Tukaram/Ashok/Simaran Tukaram/Ashok/Arpita
+   61  mkdir Tukaram/Ajit/Atharv Tukaram/Ajit/Rinku Tukaram/Ajit/Arnav 
+   62  mkdir Kashmira/Akshay
+   63  Tukaram/Ashok/Kashmira/Akshay
+   64  mkdir Tukaram/Ashok/Kashmira/Akshay
+   65  ls Tukaram
+   66  tree
+   67  pstree
+   68  tree /Home/
+   69  tree /home/
+   70  tree /mydata/
+   71  clear
+   72  sudo snap install tree
+   73  tree
+   74  apt install tree
+   75  tree
+   76  apt install tree
+   77  pstree
+   78  tree /home/
+   79  cd ..
+   80  tree
+   81  /home# tree
+   82  sudo apt update
+   83  sudo apt install tree
+   84  tree
+   85  pwd
+   86  cd ..
+   87  tree home
+   88  ls -a -l
+   89  clear
+   90  cat >Exam.sh
+   91  cat Exam.sh
+   92  vi Exam.sh
+   93  chmod +x Exam.sh
+   94  ./Exam.sh
+   95  vi Exam.sh
+   96  chmod o+rwx Exam.sh
+   97  ./Exam.sh
+   98  cat Exam.sh
+   99  cal
+  100  apt install ncal
+  101  cal
+  102  date
+  103  ls
+  104  pwd
+  105  cd home/Tukaram/
+  106  cd root/Exam.sh/
+  107  cd <directory path>
+  108  cd directory path
+  109  mkdir Arpita
+  110  ls
+  111  mkdir Arpita/user1 Arpita/user2
+  112  ls
+  113  Arpita/user1/music Arpita/user1/photo
+  114  mkdir Arpita/user1/music Arpita/user1/photo
+  115  mkdir Arpita/user2/docs Arpita/user2/video
+  116  cp Tukaram Arpita
+  117  ls
+  118  mkdir Tukaram
+  119  ls
+  120  Arpita Tukaram
+  121  cp Arpita Tukaram
+  122  ls -l
+  123  echo
+  124  cat/home/Tukaram |less
+  125  man ls
+  126  uname -a
+  127  whoami
+  128  tar
+  129  head
+  130  diff Arpita Exam.sh
+  131  cmp Tukaram Tukaram
+  132  comm
+  133  comm --help
+  134  sort Exam.sh
+  135  cmp Tukaram Tukaram
+  136  zip
+  137  apt install zip
+  138  mkdir Demo.zip
+  139  ls
+  140  mkdir Test.txt
+  141  ls
+  142  ssh
+  143  service
+  144  df
+  145  mount /dev/sdb
+  146  ifconfig
+  147  apt install net-tools
+  148  ifconfig
+  149  sudo
+  150  mkdir Mango
+  151  cd Mango
+  152  cd /home/
+  153  ls
+  154  mkdir LinuxAssignment
+  155  ls
+  156  cd /LinuxAssignment/
+  157  mkdir LinuxAssignment/file.txt
+  158  nano file.txt
+  159  ls
+  160  cat file.text
+  161  nano file.txt
+  162  ls
+  163  cat file.txt_new
+  164  cat file.txt
+  165  mkdir LinuxAssignment/docs
+  166  cp file.txt docs
+  167  cat docs
+  168  mv docs file2.txt
+  169  cat file2.txt
+  170  ls -lart
+  171  chmod u=rwx file2.txt
+  172  ls -lart
+  173  chmod u=rwx,o=r file2.txt
+  174  ls -lart
+  175  whoami
+  176  getent passwd
+  177  chown list file2.txt
+  178  ls -lart
+  179  ls LinuxAssignment
+  180  ls docs
+  181  ls file.txt
+  182  cat file.txt
+  183  ls root
+  184  ls home
+  185  ls Tukaram
+  186  ls LinuxAssignment
+  187  cd /root/
+  188  -type f "*.txt"
+  189  pwd
+  190  /root/ -type f -name "*.txt"
+  191  find /root -iname .txt
+  192  find /home -iname .txt
+  193  find . -name "*.txt"
+  194  cd /home
+  195  find . -name "*.txt"
+  196  grep "Algorithm" file2.txt
+  197  date
+  198  ifconfig
+  199  ping 8.8.8.8
+  200  man ping
+  201  cat terminal_steps.txt
+  202  gzip docs 
+  203  ls
+  204  gzip Tukaram
+  205  gzip file.txt
+  206  ls
+  207  touch harry.txt
+  208  unzip file.txt.gz -d /home/harry.txt
+  209  cat file.txt.gz
+  210  cat file.txt_new
+  211  pwd >> Project
+  212  ls > Project1
+  213  pwd > Project2
+  214  history
+  215  history > ~/Desktop/history-backup
+  216  cd root
+  217  history > ~/home/LinuxAssignment/file.txt
+  218  history > ~/home/Project
+  219  cd /root
+  220  history > ~/home/Project
+  221  history > ~/home/harry
+  222  history > ~/home/bash_history-backup
+  223  history > -/history-save
+  224  harry > -/history-save
+  225  LinuxAssignment > -/history-save
+  226  cat /home/.bash_history > ~/Desktop/bash_history-backup
+  227  cat /home/.bash_history > ~/home/harry
+  228  cat home/.bash_history > ~/home/bash_history-backup
+  229  ls > history
+  230  history
+  231  history  -w  ~/home/
+  232  history -w  ~/home/LinuxAssignment/file.txt
+  233  history  >  myfile
